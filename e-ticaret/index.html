@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document / Hüseyin ŞELE</title> 
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <div class="product">
+        <div class="product-img">
+            <figure>
+              <img src="foto/2670187632_2_1_1.jpg" alt="">
+            </figure>
+        </div>
+        <div class="product-info">
+          <h2>Kırmızı Düşük Kol Elbise</h2>
+          <p class="price">599.99 TL</p>
+          <small>Veya WorlCald ile 599,99 TL faizsiz 4 taksit <a href="#">WorlCald</a></small>
+          <hr />
+          <div class="color-options">
+            <p class="preview">
+                <b>Renk:</b> Kırmızı</p>
+            <ul class="color-list">
+              <li class="color" style="background: red;">Red</li>
+              <li class="color" style="background: yellow;">yellow</li>
+            </ul>
+          </div>
+          <div class="size-options">
+            <p><b>Beden</b></p>
+            <ul class="size-list">
+              <li>
+                <input type="radio" name="selectedSize" id="size-xxs" value="xxs">
+                <label for="size-xxs">XXS</label>
+              </li>
+              <li>
+                <input type="radio" name="selectedSize" id="size-xs" value="xs">
+                <label for="size-xs">XS</label>
+              </li>
+              <li>
+                <input type="radio" name="selectedSize" id="size-s" value="s">
+                <label for="size-s">S</label>
+              </li>
+              <li>
+                <input type="radio" name="selectedSize" id="size-m" value="m">
+                <label for="size-m">M</label>
+              </li>
+              <li>
+                <input type="radio" name="selectedSize" id="size-l" value="l">
+                <label for="size-l">L</label>
+              </li>
+              <li>
+                <input type="radio" name="selectedSize" id="size-xl" value="xl">
+                <label for="size-xl">XL</label>
+              </li>
+              <li>
+                <input type="radio" name="selectedSize" id="size-xxl" value="xxl">
+                <label for="size-xxl">XXL</label>
+              </li>
+            </ul>
+            <button id="size-guide-btn" popovertarget="size-guide">Beden Ölcüsü</button>
+          </div>
+          <form class="add-to-cart-form">
+            <label class="quantity-label" for="quantity"><b>Miktar</b></label>
+            <input type="number" id="quantity" value="1">
+            <button class="add-to-cart-btn" type="submit">Sepete Ekle</button>
+          </form>
+
+
+          <p>Siparişlerde Ücretsiz Gönderim $ 150 +</p>
+          <p>Mağazanın kullanılabilirliğini kontrol etmek için lütfen bir beden seçin.</p>
+      
+        </div>
+  </div> 
+
+
+  <div id="size-guide" popover>
+        <button class="close-btn" popovertarget="size-guide" popovertargetaction="hide">
+          <span aria-hidden="true">❌</span>
+          <p class="sr-only">Close</p>
+        </button>
+        <h2>Elbise Bedenleri:</h2>
+        <table border="0" cellpadding="2" cellspacing="2">
+          <thead>
+            <tr>
+              <th></th>
+              <th>XXS</th>
+              <th>XS</th>
+              <th>S</th>
+              <th>M</th>
+              <th>L</th>
+              <th>XL</th>
+            </tr>
+          </thead>
+      
+          <tbody>
+            <tr>
+              <th scope="row">ABD Bedenleri</th>
+              <td>00</td>
+              <td>0<br>2</td>
+              <td>4<br>6</td>
+              <td>8<br>10</td>
+              <td>12<br>14</td>
+              <td>16</td>
+            </tr>
+            <tr>
+              <th scope="row">Göğüs</th>
+              <td>32</td>
+              <td>33<br>34</td>
+              <td>35<br>36</td>
+              <td>37<br>38</td>
+              <td>39.5<br>41</td>
+              <td>42.5</td>
+            </tr>
+            <tr>
+              <th scope="row">Doğal Bel</th>
+              <td>24</td>
+              <td>25<br>26</td>
+              <td>27<br>28</td>
+              <td>29<br>30</td>
+              <td>31.5<br>33</td>
+              <td>34.5</td>
+            </tr>
+            <tr>
+              <th scope="row">Düşük Bel</th>
+              <td>26</td>
+              <td>27<br>28</td>
+              <td>29<br>30</td>
+              <td>31<br>32</td>
+              <td>33.5<br>35</td>
+              <td>36.5</td>
+            </tr>
+            <tr>
+              <th scope="row">Kalca</th>
+              <td>34</td>
+              <td>35<br>36</td>
+              <td>37<br>38</td>
+              <td>39<br>40</td>
+              <td>41.5<br>43</td>
+              <td>44.5</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="measurements">
+          <h2>Ölcümler nasıl alınır</h2>
+          <ul class="measurements-guide">
+            <li><b>Göğüs:</b>Kollarınız yanlarınızda rahat olacak şekilde durun. Ölçüm bandını kollarınızın altına, büstünüzün en dolu kısmına yerleştirin. Bandı omuz bıçaklarınız boyunca düz tutun. </li>
+            <li><b>Doğal Bel:</b> Dik durun ve belinizin doğal kıvrımını bulun. Bandı rahatça gevşek tutarak ölçüm bandını belinizin etrafına yerleştirin.</li>
+            <li><b>Belinizi düşürün:</b> Vücudunuzun etrafını doğal belinizin 1 1/2 inç altında ölçün.</li>
+            <li><b>Kalçalar:</b>  Ayaklarınızla birlikte durun. Ölçüm bandını kalçalarınızın en dolu kısmına yerleştirin</li>
+          </ul>
+        </div>
+
+  </div>
+
+  <div class="pop">
+    <span>✖</span>
+    <h1>jQuery Pop Up</h1>
+    <p>Ürünü sepete eklediniz. +500TL hediye çeki kazanmak için, 
+      sepete eklediğiniz ürünlerin limitini 2000TL tamamlayınız
+    </p>
+
+  </div>
+
+    
+
+  <script src="js"></script>
+
+    
+</body>

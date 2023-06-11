@@ -1,0 +1,12 @@
+$(document).ready(function () {
+  $("add-to-cart-btn").click(function () 
+  {
+      $(".pop").fadeIn(300);
+     
+  });
+
+  $(".pop > span, .pop").click(function ()
+   {
+      $(".pop").fadeOut(300);
+  });
+});
